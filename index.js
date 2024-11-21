@@ -83,6 +83,16 @@ const services = [
     target: "http://localhost:4000/user",
     nonProtected: false,
   },
+  {
+    route: "/order",
+    target: "http://localhost:4001/api/orders",
+    nonProtected: false,
+  },
+  {
+    route: "/tracking",
+    target: "http://localhost:4002/tracking",
+    nonProtected: false,
+  },
 ];
 
 services.forEach(({ route, target, nonProtected }) => {
