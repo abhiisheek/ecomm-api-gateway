@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index",
+    "start:prod": "NODE_ENV=production node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
